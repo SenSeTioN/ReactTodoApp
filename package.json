@@ -1,11 +1,10 @@
 {
 	"name": "reacttodo",
-	"homepage": "https://SenSeTioN.github.io/reactTodo",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
-		"deploy": "gh-pages -d build",
+		"deploy": "gh-pages -d dist",
 		"predeploy": "npm run build",
 		"dev": "vite",
 		"build": "vite build",
